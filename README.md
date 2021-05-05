@@ -6,7 +6,7 @@ Play with text is a simple django based web application which I made for fun so 
 which I called fun with math, I used a third party api so that user can create a graph from any quadratic equation with point labels. 
 You can contact with me through this website, I have added so many ways to contact with me. You can check that out. 
 
-These terms and conditions outline the rules and regulations for the use of Play With Text's Website, located at ehsansoftware.com.
+These terms and conditions outline the rules and regulations for the use of Play With Text's Website.
 
 By accessing this website we assume you accept these terms and conditions. Do not continue to use Play With Text if you do not agree to take all of the terms and 
 conditions stated on this page.The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: "Client",
