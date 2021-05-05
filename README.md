@@ -2,7 +2,7 @@
 
 Welcome to Play With Text!
 
-Play with text is fun, user can do anything with his text (i.e remove punctuations, turn uppercase, count word, remove new line etc), I have added another new function
+Play with text is fun, user can do anything with his text (i.e remove punctuations, turn uppercase, count word, remove new line, remove extra space, remove number from sentence), I have added another new function
 which I called fun with math, I used a third party api so that user can create a graph from any quadratic equation with point labels. 
 You can contact with me through this website, I have added so many ways to contact with me. You can check that out. 
 
