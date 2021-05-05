@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <title>Fun With Math</title>
+  </head>
+  
+  <body>
+    
+    <div> 
+      <div>
+        <div>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+              <div class="container-fluid">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ml-5" href="http://127.0.0.1:8000/aboutme/">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link ml-5" href="http://127.0.0.1:8000/contact/">Contact</a>
+                    </li>
+                  </li>
+                </ul>
+              </div>
+              <form class="d-flex">
+                <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+                    
+    
+                    </li>
+                  </ul>
+                </div>
+      </div>
+    </div>
+
+   
+    <center>
+      <h3 class="ml-5">Want More Fun! Find Graph From Quadratic Equation</h3>
+                <style>
+                  
+                    @-webkit-keyframes typing { from { width: 0; } }
+                    @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+                    h3 { 
+                      font: bold 300% Consolas, Monaco, monospace;
+                      border-right: .1em solid #dff707bd;
+                      width: 16.5em; 
+                      width: 50ch;
+                      margin: 1em 1em;
+                      white-space: nowrap;
+                      overflow: hidden;
+                      -webkit-animation: typing 3s steps(50, end),
+                                blink-caret .2s step-end infinite alternate;
+                        }
+                </style>
+              </div>
+
+    <!-- <marquee width="100%" direction="right"  scrollamount="10" height="100px">
+        Testing 01
+    </marquee> -->
+
+
+
+      <script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+      <div id="calculator" style="width: 1300px; height: 380px;"></div>
+      <script>
+        /*var elt = document.getElementById('calculator');
+        var calculator = Desmos.GraphingCalculator(elt);
+        calculator.setExpression({ id: 'graph1', latex: 'y=x^2' });*/
+        var elt = document.getElementById('calculator');
+        var calculator = Desmos.Calculator(elt);
+        
+        // Draw a line on the calculator
+        calculator.setExpression({id:'line', latex:'y=2x-4'});
+        
+        // Show two points on the line
+        calculator.setExpression({id:'p1', latex:'(0,-4)'});
+        calculator.setExpression({id:'p2', latex:'(1,-2)'});
+
+
+        
+
+      </script>
+
+    </center>
+
+    <script type="text/javascript">
+      (function () {
+          var options = {
+              whatsapp: "8801679609289", // WhatsApp number
+              email: "sohanur.shanto@northsouth.edu", // Email
+              call_to_action: "Message me", // Call to action
+              button_color: "#E74339", // Color of button
+              position: "right", // Position may be 'right' or 'left'
+              order: "email,whatsapp", // Order of buttons
+          };
+          var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+  </script>
+
+    
+    
+
+    
+
+
+     <!-- <div style="margin: 10% auto;max-width: 50%;">
+        <h1><center> Global Map Circle Animation In Css</center></h1>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+    </div>
+
+    <style>
+
+      body {
+        background-color: #75cfe5;
+    }
+    .stage{
+        height: 600px;
+        width: 600px;
+        margin: 0 auto;
+    }
+    .ball {
+        -webkit-animation: move-map 35s infinite cubic-bezier(.5,.5,.5,.5);
+        animation: move-map 35s infinite cubic-bezier(.5,.5,.5,.5);
+    }
+     
+    .ball {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        border-radius: 50%;
+        position: relative;
+        -webkit-transform-style: preserve-3d;
+        background-image: url('http://www.jquerypost.com/demo/animated-world-map-with-round-circle-in-css-847/earth.jpg');
+        background-repeat: repeat-x;
+        background-size: auto 600px;
+        box-shadow: 0 2px 2px rgba(0,0,0,.18), 0 4px 4px rgba(0,0,0,.18), 0 8px 8px rgba(0,0,0,.18), 0 16px 16px rgba(0,0,0,.15), 0 32px 32px rgba(0,0,0,.15);
+    }
+    .ball:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        box-shadow: -40px 10px 70px 10px rgba(0,0,0,.5) inset;
+        z-index: 2;
+    }
+    .ball:after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: .3;
+        background: radial-gradient(circle at 50% 80%,ligthen(#75cfe5,5),#75cfe5 10%,#020409 66%,#13265e 100%);
+    }
+     
+    @keyframes move-map {
+        0% {
+        background-position: -800px 40%;
+    }
+    100% {
+        background-position: 0 40%;
+    }
+    </style>
+
+  -->
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

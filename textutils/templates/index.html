@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!--Typed.js-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+    <link rel="shortcut icon" href="https://codewithharry.com/static/photo.png">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+
+    <title> Play With Text </title>
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="https://codewithharry.com/static/photo.png">  
+
+    <style>
+		.footer {
+   		position: fixed;
+   		left: 0;
+   		bottom: 0;
+   		width: 100%;
+   		background-color: rgba(11, 49, 56, 0.822);
+   		color: rgb(247, 217, 217);
+   		text-align: center;
+   		display: block;
+		}
+	</style>
+
+
+  </head>
+  <body>
+
+  
+    
+  </head>
+  <body>
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">PlayWithText</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link ml-5" href="http://127.0.0.1:8000/aboutme/">About Me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ml-5" href="http://127.0.0.1:8000/contact/">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link ml-5" href="http://127.0.0.1:8000/funwithmath/">FunWithMath</a>
+                  </li>
+  
+                  </li>
+                </ul>
+              </div>
+              <form class="d-flex">
+                <input class="form-control me-4" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-warning" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                <strong>Welcome!</strong>  Analyze Your Text     
+              </div>
+              <div></div>
+                <h3 class="ml-5">Play With Text is Fun! Enter Your Text Below</h3>
+                <style>
+                  
+                    @-webkit-keyframes typing { from { width: 0; } }
+                    @-webkit-keyframes blink-caret { 50% { border-color: transparent; } }
+                    h3 { 
+                      font: bold 300% Consolas, Monaco, monospace;
+                      border-right: .1em solid #dff707bd;
+                      width: 16.5em; 
+                      width: 45ch;
+                      margin: 0.2em 0.3em;
+                      white-space: nowrap;
+                      overflow: hidden;
+                      -webkit-animation: typing 3s steps(45, end),
+                                blink-caret .2s step-end infinite alternate;
+                        }
+                </style>
+                
+    
+
+              </div>
+
+
+              
+            
+              
+    <div class="container">
+        <form action="analyzing/" method="post">  {% csrf_token %}
+          <br>
+          <br>
+    
+        <textarea name="text" style="margin: 0px; width: 872px; height: 200px;"></textarea>
+        <br>
+        <br>
+        
+        
+             
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="removepunc" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Remove Punctuation</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="upperstr" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Upper Case</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="newlineremove" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">New Line remove</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="extraspaceremover" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Extra Space Remove</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="numberremover" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Number remove</label>
+          </div>
+          <div class="form-check form-switch">
+            <input class="form-check-input" name="charcount" type="checkbox" id="flexSwitchCheckDefault">
+            <label class="form-check-label" for="flexSwitchCheckDefault">Count the words</label>
+            <br>
+            <br>
+
+            <button type="submit" class="mb-5 btn btn-warning">Analyze</button>
+            
+
+          </div>   
+        </form>        
+    </div>
+
+
+
+  <!-- Footer-->
+<footer class="footer">
+  <div class="container">
+    <span class="text-light">&#169 2020 PlayWithText.in </span>
+  </div>
+</footer>
+
+
+<script type="text/javascript">
+      (function () {
+          var options = {
+              whatsapp: "8801679609289", // WhatsApp number
+              email: "sohanur.shanto@northsouth.edu", // Email
+              call_to_action: "Message me", // Call to action
+              button_color: "#E74339", // Color of button
+              position: "right", // Position may be 'right' or 'left'
+              order: "email,whatsapp", // Order of buttons
+          };
+          var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+          var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+          s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+          var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+      })();
+</script>
+
+  
+
+
+  
+
+
+  </body>
+</html>
