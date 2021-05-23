@@ -25,3 +25,9 @@ to make it easier for people visiting our website. Some of our affiliate/adverti
 License
 Unless otherwise stated, Play With Text and/or its licensors own the intellectual property rights for all material on Play With Text. All intellectual property 
 rights are reserved. You may access this from Play With Text for your own personal use subjected to restrictions set in these terms and conditions.
+
+<p align="center">
+  <kbd>
+<iframe width='560' height='315' src='https://outklip.com/embed/-MaNoNTX8Dkm8fXQC2D5' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' scrolling='no' allowfullscreen > </iframe>
+  </kbd>
+</p>
